@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>quiz</title>
+</head>
+
+<body>
+    <div class="squer"></div>
+    <div class="squer2"></div>
+    <div class="squer3"></div>
+    <div class="text">This Quiz Application made by whh32</div>
+
+    <div class="quiz-box">
+
+        <div class="title-box">Quiz Application</div>
+        <div class="info-box">1.you will have only <span>15 secound</span> per each question.</div>
+        <div class="info-box">2.once you select your answer,it can't be undone.</div>
+        <div class="info-box">3.you can't select any option once time goes off.</div>
+        <div class="info-box">4.you can't exit from the Quiz while you're playing.</div>
+        <div class="info-box">5.you'll get points on the basis of your correct answers.</div>
+        <div class="line"></div>
+        <button class="btn-continue">continue</button>
+
+    </div>
+
+
+    <!-- question 1 -->
+
+    <div class="quiz-box-test">
+        <div class="title-box">Quiz Application</div>
+        <div class="timer"></div>
+        <div class="ask">
+            <!--this ask exit in js-->
+        </div>
+        <div class="options">
+            <div class="answer margin">
+                <span class="name">A</span>
+                <span class="option">
+                    <!--this optin exit in js-->
+                </span>
+                <span class="state"></span>
+            </div>
+            <div class="answer">
+                <span class="name">B</span>
+                <span class="option">
+                    <!--this optin exit in js-->
+                </span>
+                <span class="state"></span>
+            </div>
+            <div class="answer">
+                <span class="name">C</span>
+                <span class="option">
+                    <!--this optin exit in js-->
+                </span>
+                <span class="state"></span>
+            </div>
+            <div class="answer">
+                <span class="name">D</span>
+                <span class="option">
+                    <!--this optin exit in js-->
+                </span>
+                <span class="state"></span>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="footer">
+            <div class="page"><span class="page-number">1</span> of 5</div>
+            <button class="next-question">Next</button>
+        </div>
+
+    </div>
+
+    <div class="result">
+        <div class="titleImg">
+            <div class="gif"><img src="image/tik.gif" alt="gifTik"></div>
+        </div>
+        <div class="description">
+            <div class="resultTitel"><span>you've completed the Quiz</span></div>
+            <div class="score">You answered <span class="scoreJs">0</span> of the <span class="numberQustion"> 0</span> questions correctly in this Quiz.</div>
+            <div class="comment">comment</div>
+        </div>
+
+    </div>
+
+
+    <script src="qustion.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
