@@ -1,5 +1,6 @@
 # QuizApp
 Exam app with JavaScript
+
 Capabilities:
 
 1.Smart timer
